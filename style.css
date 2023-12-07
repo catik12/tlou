@@ -1,0 +1,137 @@
+*{
+    margin:0
+}
+body{
+    background-color:rgb(56, 56, 56)
+}
+header{
+    background-attachment: fixed; 
+    display:flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    height: 72px; 
+    padding: 0 165px;
+    background-color:rgb(17, 17, 17);
+}
+header a{  
+    font-weight: 500; 
+    font-size: 20px; 
+    line-height: 20px; 
+    color: #e6e6e6; 
+    text-decoration: none; 
+    margin-right: 32px; 
+}
+.banner{
+    height:400px;
+    background-image:url(Rectangle.png);
+    background-size:cover;
+    background-position:center;
+    color: rgb(236, 236, 236);
+    font-size: 25px;
+    padding: 20% 5%;
+}
+.characters>*{
+    padding: 25px 8%;
+    text-align:center;
+    display:inline-block;
+    width:350px;
+    font-size:30px;
+    vertical-align: middle;
+    color:rgb(1, 14, 0);
+}
+.characters p{
+    width:550px;
+}
+h1{
+    text-align:center;
+    padding:20px;
+    color:rgb(129, 129, 129);
+}
+.c2>*{
+    padding: 25px 8%;
+    text-align:center;
+    display:inline-block;
+    width:350px;
+    font-size:30px;
+    vertical-align: middle;
+    color:rgb(51, 0, 0)
+}
+.c2 p{
+    width:550px;
+}
+.c3>*{
+    padding: 25px 8%;
+    text-align:center;
+    display:inline-block;
+    width:350px;
+    font-size:30px;
+    vertical-align: middle;
+    color:rgb(0, 7, 31);
+}
+.c3 p{
+    width:550px;
+}
+.c4>*{
+    padding: 25px 8%;
+    text-align:center;
+    display:inline-block;
+    width:350px;
+    font-size:30px;
+    vertical-align: middle;
+    color:rgb(36, 0, 32);
+}
+.c4 p{
+    width:550px;
+}
+.zombi{
+    font-size:28px;
+    padding:25px 0px;
+    padding:0px 15px;
+}
+.zombi h1{
+    text-align:center;
+    padding:20px;
+    color:rgb(129, 129, 129);
+}
+.frakciya{
+    font-size: 28px;
+    padding:25px 0px;
+    padding: 0px 15px;
+}
+.frakciya h1{
+    text-align:center;
+    padding:20px;
+    color:rgb(129, 129, 129);
+}
+#passing{
+    font-size:25px;
+    padding:35px 20px;
+}
+#passing h1{
+    text-align:center;
+    padding:20px;
+    color:rgb(129, 129, 129);
+}
+#p2{
+    padding: 0px 10px;
+    color:black;
+    font-size:24px;
+}
+#p3{
+    padding:0px 10px;
+    color: black;
+    font-size:27px;
+}
+.pon{
+    padding:45px;
+    font-size: 25px;
+}
+.f{
+    display:flex; 
+    justify-content: space-between; 
+    align-items: center;  
+    padding: 0 165px;
+}
+.f img{
+    margin-right: 32px;
+}
